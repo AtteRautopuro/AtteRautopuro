@@ -1,8 +1,9 @@
 header,
 footer {
     padding: 2em;
-    background-color:darkcyan;
+    background-color:rgb(181, 199, 108);
     text-align: center;
+    clear: left;
 }
 
 .wrapper {
