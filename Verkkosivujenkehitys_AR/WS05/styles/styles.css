@@ -1,22 +1,23 @@
 header,
 footer {
-    padding: 2em;
+    padding: 1;
     background-color:rgb(181, 199, 108);
     text-align: center;
     clear: left;
+    font-size: 35px;
+
 }
 
 .wrapper {
-    display: flex-container;
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color:rgb(181, 199, 108)
 }
 
 .wrapper > div {
-    flex: 1;
-    text-align: center;
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color:rgb(181, 199, 108)
 }
-
-body {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    } 
