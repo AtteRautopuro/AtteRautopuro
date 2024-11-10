@@ -11,7 +11,7 @@ footer {
 
 .wrapper {
     display: list-item;
-    
+    text-align: left;
 }
 
 .wrapper > div {
