@@ -34,7 +34,7 @@ nav#top-nav a {
 
 nav#top-nav a:hover {
     background-color:white;
-    color:green;
+    color:red;
 }
 
 nav#side-nav {
