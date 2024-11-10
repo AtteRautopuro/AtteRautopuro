@@ -10,8 +10,11 @@ footer {
 }
 
 .wrapper {
+    padding: 1;
+    border-radius: 10px;
+    width: 250px;
     display: list-item;
-    text-align: left;
+    text-align: center;
 }
 
 .wrapper > div {
