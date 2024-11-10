@@ -1,0 +1,15 @@
+header,
+footer {
+    padding: 2em;
+    background-color:darkcyan;
+    text-align: center;
+}
+
+.wrapper {
+    display: flexbox;
+}
+
+.wrapper > div {
+    flex: 1;
+    text-align: center;
+}
