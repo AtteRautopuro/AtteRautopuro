@@ -9,7 +9,10 @@ footer {
 }
 
 .wrapper {
-    
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color:rgb(181, 199, 108)
 }
 
 .wrapper > div {
