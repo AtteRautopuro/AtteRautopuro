@@ -1,10 +1,11 @@
 header,
 footer {
     padding: 1;
-    background-color:rgb(181, 199, 108);
+    background-color:rgb(0, 0, 0);
     text-align: center;
-    clear: left;
+    clear: middle;
     font-size: 35px;
+    color: white;
 
 }
 
