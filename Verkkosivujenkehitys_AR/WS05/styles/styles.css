@@ -6,7 +6,7 @@ footer {
 }
 
 .wrapper {
-    display: flexbox;
+    display: flex;
 }
 
 .wrapper > div {
