@@ -69,7 +69,6 @@
     color: red;
 }
 
-/* Responsive grid system */
 @media (max-width: 768px) {
     .image-box {
         height: 300px;
