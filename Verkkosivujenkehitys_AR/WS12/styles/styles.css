@@ -103,6 +103,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     height: 400px;
+    overflow: hidden;
 }
 
 .content-item img {
@@ -126,5 +127,5 @@ footer {
 }
 
 .content-item img:hover {
-    transform: scale(1.1);
+    transform: none;
 }
