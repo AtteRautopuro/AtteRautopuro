@@ -1,0 +1,81 @@
+/* Custom styles for header and footer */
+#header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer {
+    background-color: #464d52;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Custom styles for image box */
+.image-box {
+    width: 100%;
+    height: 400px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.image-box img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+.image-box img.active {
+    display: block;
+}
+
+/* Custom styles for text box */
+.text-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-box h3 {
+    color: #3498db;
+}
+
+.text-box p {
+    color: #333;
+}
+
+/* Custom style for navbar */
+#top-nav {
+    background-color: #3498db;
+    padding: 10px;
+}
+
+.navbar-nav .navbar-brand {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .navbar-brand:hover {
+    background-color: white;
+    color: red;
+}
+
+/* Responsive grid system */
+@media (max-width: 768px) {
+    .image-box {
+        height: 300px;
+    }
+
+    .text-box {
+        margin-bottom: 10px;
+    }
+}
