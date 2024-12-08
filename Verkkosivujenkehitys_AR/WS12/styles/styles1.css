@@ -108,9 +108,9 @@ footer {
 
 .content-item img {
     width: 100%;
-    height: 200px;
+    height: 220px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 2.5px;
     margin-bottom: 10px;
     transition: transform 0.3s ease;
 }
