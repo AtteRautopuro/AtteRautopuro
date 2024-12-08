@@ -73,8 +73,7 @@ section#content {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    height: 250px; /* Set a fixed height for equal size */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 200px; /* Set a fixed height for equal size */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -86,7 +85,6 @@ section#content {
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 10px;
-    transition: transform 0.3s ease;
 }
 
 .content-item p {
@@ -95,8 +93,7 @@ section#content {
 }
 
 .content-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .right-column {
@@ -113,7 +110,7 @@ section#content {
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
-    height: 250px;
+    height: 200px;
 }
 
 .text-box h3 {
