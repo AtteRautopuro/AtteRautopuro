@@ -127,5 +127,5 @@ footer {
 }
 
 .content-item img:hover {
-    transform: none;
+    transform: scale(1);
 }
