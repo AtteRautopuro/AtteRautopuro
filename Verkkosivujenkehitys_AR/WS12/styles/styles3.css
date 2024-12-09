@@ -4,6 +4,7 @@ color: white;
 padding: 20px;
 text-align: center;
 position: relative;
+font-family: Arial, sans-serif;
 }
 #header .logo {
     width: 100px;
@@ -48,6 +49,7 @@ position: relative;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
 }
 
 .text-box h3 {
@@ -72,7 +74,7 @@ position: relative;
 
 .navbar-nav .navbar-brand:hover {
     background-color: white;
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 @media (max-width: 768px) {
