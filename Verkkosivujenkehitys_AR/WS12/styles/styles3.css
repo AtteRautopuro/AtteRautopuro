@@ -11,6 +11,9 @@ font-family: Arial, sans-serif;
     float: center;
     margin-top: -40px;
 }
+body {
+    background-color: #4a4a4a;
+}
 
 #footer {
     background-color: #000000;

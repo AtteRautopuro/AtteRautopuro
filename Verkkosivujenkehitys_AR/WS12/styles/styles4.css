@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #019d57c8;
+    background-color: #000000;
     color: white;
     padding: 20px;
     text-align: center;
@@ -27,7 +27,7 @@ header .logo {
 }
 
 nav#top-nav {
-    background-color: #3498db;
+    background-color: #4a4a4a;
     text-align: center;
     padding: 10px;
 }
@@ -128,7 +128,7 @@ section#content {
 }
 
 footer#footer {
-    background-color: #019d57c8;
+    background-color: #000000;
     color: white;
     padding: 10px;
     text-align: center;
