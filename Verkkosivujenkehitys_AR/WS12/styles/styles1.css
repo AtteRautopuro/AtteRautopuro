@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f9;
+    background-color: #4a4a4a;
 }
 header {
     background-color: #000000;
@@ -17,7 +17,7 @@ header {
     text-align: center;
 }
 nav#top-nav {
-    background-color: #3498db;
+    background-color: #000000;
     text-align: center;
     padding: 10px;
 }

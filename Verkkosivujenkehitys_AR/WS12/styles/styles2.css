@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f9;
+    background-color: #4a4a4a;
 }
 
 header {
@@ -27,7 +27,7 @@ header .logo {
 }
 
 nav#top-nav {
-    background-color: #3498db;
+    background-color: #ffffff;
     text-align: center;
     padding: 10px;
 }
@@ -128,7 +128,7 @@ section#content {
 }
 
 footer#footer {
-    background-color: #464d52;
+    background-color: #000000;
     color: white;
     padding: 10px;
     text-align: center;
