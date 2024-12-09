@@ -1,39 +1,35 @@
-/* Header Styles */
 #header { 
     background-color: #000000;
     color: white;
     padding: 20px;
     text-align: center;
     position: relative;
-    font-family: Arial, sans-serif; /* Font consistency */
+    font-family: Arial, sans-serif;
 }
 
 #header .logo {
     width: 100px;
     margin-top: -40px;
-    display: inline-block; /* Changed to inline-block for better centering */
+    display: inline-block;
 }
 
-/* Body Styles */
 body {
     background-color: #4a4a4a;
-    font-family: Arial, sans-serif; /* Ensure body font is Arial */
+    font-family: Arial, sans-serif;
 }
 
-/* Footer Styles */
 #footer {
     background-color: #000000;
     color: white;
     padding: 10px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
-/* Image Box */
 .image-box {
     width: 100%;
     height: 400px;
-    background-color: #ecf0f1;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,13 +50,12 @@ body {
     display: block;
 }
 
-/* Text Box */
 .text-box {
     background-color: white;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif; /* Font consistency */
+    font-family: Arial, sans-serif;
 }
 
 .text-box h3 {
@@ -71,12 +66,11 @@ body {
     color: #333;
 }
 
-/* Top Navigation - Centered and Arial Font */
 #top-nav {
     background-color: #3498db;
     padding: 10px;
-    text-align: center; /* Center the nav */
-    font-family: Arial, sans-serif; /* Ensure Arial font */
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 #top-nav a {
@@ -84,7 +78,7 @@ body {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-    font-family: Arial, sans-serif; /* Ensure Arial font for links */
+    font-family: Arial, sans-serif;
     transition: background-color 0.3s ease;
     padding: 5px 15px;
     border-radius: 5px;
@@ -95,12 +89,11 @@ body {
     color: #d4ff00;
 }
 
-/* Navbar Brand (if used) */
 .navbar-nav .navbar-brand {
     color: white;
     padding: 10px;
     font-weight: bold;
-    font-family: Arial, sans-serif; /* Font consistency */
+    font-family: Arial, sans-serif;
     transition: background-color 0.3s ease;
 }
 
@@ -109,7 +102,6 @@ body {
     color: #000000;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     .image-box {
         height: 300px;
